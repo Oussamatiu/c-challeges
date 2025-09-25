@@ -8,12 +8,12 @@ void main (){
    scanf("%d", &num);
    int tableau[num];
    for (int i = 0 ; i < num ; i++){
-    printf("donner un nomber : ");
-    scanf("%d" ,&tableau[i]);
-   }
+    printf("donner un nomber %d",i + 1);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    scanf("%d ", &tableau[i]);
    for(int i = 0 ; i < num ; i++){
        if(tableau[i] % 2 == 0){
         printf("%d ", tableau[i]);
        }
    }
+}
 }

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+  
   float note;
   printf("entre la note : ");
   scanf("%f", &note);

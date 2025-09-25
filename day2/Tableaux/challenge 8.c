@@ -8,7 +8,7 @@ void main (){
    scanf("%d", &num);
    int tableau[num];
    for (int i = 0 ; i < num ; i++){
-    printf("donner un nomber : ");
+    printf("donner un nomber %d: ", i + 1);
     scanf("%d" ,&tableau[i]);
    }
    int tableau2[num];
