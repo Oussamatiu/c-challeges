@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #define MAX 100
-void menu(){
 
-}
 void main (){
   char titres[MAX][50] , auteur[MAX][50] , value[30];
   int new ,somme = 0; 
